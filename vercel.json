@@ -1,8 +1,13 @@
 {
+    "version": 2,
     "rewrites": [
       {
+        "source": "/api/webhook",
+        "destination": "/api/webhook.js"
+      },
+      {
         "source": "/(.*)",
-        "destination": "/index.html"
+        "destination": "/public/$1"
       }
     ]
   }

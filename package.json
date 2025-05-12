@@ -1,0 +1,15 @@
+{
+    "name": "zalo-webhook",
+    "version": "1.0.0",
+    "description": "Vercel project to proxy Zalo OA webhook to n8n",
+    "main": "api/webhook.js",
+    "scripts": {
+        "start": "vercel dev",
+        "deploy": "vercel --prod"
+    },
+    "dependencies": {
+        "node-fetch": "^2.7.0"
+    },
+    "author": "Thanh Luan HLV",
+    "license": "ISC"
+}
