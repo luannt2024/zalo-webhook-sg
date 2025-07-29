@@ -6,7 +6,7 @@ app.use(express.json());
 app.post('/api/webhook', async (req, res) => {
   console.log('Nhận webhook từ Zalo:', req.body);
   
-  // Trả về 200 ngay lập tức cho Zalo
+  // Trả về 200 ngay lập tức cho Zalo123123
 
   // Gửi dữ liệu sang n8n
   try {
